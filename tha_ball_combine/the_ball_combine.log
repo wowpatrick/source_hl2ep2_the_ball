@@ -1,0 +1,291 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\Clay\game-dev\Source Modding\Maps\the_ball\tha_ball_combine\the_ball_combine.vmf
+material "de_piranesi/pi_grnmetalt" not found.
+Material not found!: DE_PIRANESI/PI_GRNMETALT
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/the_ball_combine/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\Clay\game-dev\Source Modding\Maps\the_ball\tha_ball_combine\the_ball_combine.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_03*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_03*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (2) (1304525 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 498 texinfos to 295
+Reduced 30 texdatas to 27 (782 bytes to 657)
+Writing C:\Users\Clay\game-dev\Source Modding\Maps\the_ball\tha_ball_combine\the_ball_combine.bsp
+6 seconds elapsed
+
+
+
+8 threads
+reading c:\users\clay\game-dev\source modding\maps\the_ball\tha_ball_combine\the_ball_combine.bsp
+reading c:\users\clay\game-dev\source modding\maps\the_ball\tha_ball_combine\the_ball_combine.prt
+1732 portalclusters
+5051 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6050 visible clusters (0.96%)
+Total clusters visible: 627052
+Average clusters visible: 362
+Building PAS...
+Average clusters audible: 1724
+visdatasize:601495  compressed from 775936
+writing c:\users\clay\game-dev\source modding\maps\the_ball\tha_ball_combine\the_ball_combine.bsp
+55 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\clay\game-dev\source modding\maps\the_ball\tha_ball_combine\the_ball_combine.bsp
+7023 faces
+1021953 square feet [147161248.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7023 patches before subdivision
+55017 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 16422351, max 1591
+transfer lists: 125.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(146369, 135955, 114337)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(28479, 24349, 17618)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6977, 5553, 3420)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2361, 1735, 927)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(785, 498, 215)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(311, 164, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(127, 52, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(58, 18, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(28, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(14, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(7, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0221 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 124/1024         5952/49152    (12.1%) 
+brushes               4151/8192        49812/98304    (50.7%) 
+brushsides           30339/65536      242712/524288   (46.3%) 
+planes                4234/65536       84680/1310720  ( 6.5%) 
+vertexes             10440/65536      125280/786432   (15.9%) 
+nodes                 3952/65536      126464/2097152  ( 6.0%) 
+texinfos               295/12288       21240/884736   ( 2.4%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 7023/65536      393288/3670016  (10.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5473/65536      306488/3670016  ( 8.4%) 
+leaves                4077/65536      130464/2097152  ( 6.2%) 
+leaffaces             7260/65536       14520/131072   (11.1%) 
+leafbrushes           7893/65536       15786/131072   (12.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            51378/512000     205512/2048000  (10.0%) 
+edges                29758/256000     119032/1024000  (11.6%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            399/32768        3990/327680   ( 1.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8466/65536       16932/131072   (12.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     1767096/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      601495/16777216 ( 3.6%) 
+entdata               [variable]       93021/393216   (23.7%) 
+LDR ambient table     4077/65536       16308/262144   ( 6.2%) 
+HDR ambient table     4077/65536       16308/262144   ( 6.2%) 
+LDR leaf ambient      6859/65536      192052/1835008  (10.5%) 
+HDR leaf ambient      4077/65536      114156/1835008  ( 6.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/378      ( 0.3%) 
+pakfile               [variable]      174489/0        ( 0.0%) 
+physics               [variable]     1304525/4194304  (31.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 16668
+Writing c:\users\clay\game-dev\source modding\maps\the_ball\tha_ball_combine\the_ball_combine.bsp
+28 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Half-Life 2\hl2\materials
+Loading C:\Users\Clay\game-dev\Source Modding\Maps\the_ball\tha_ball_combine\the_ball_combine.vmf
+material "de_piranesi/pi_grnmetalt" not found.
+Material not found!: DE_PIRANESI/PI_GRNMETALT
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Clay\game-dev\Source Modding\Maps\the_ball\tha_ball_combine\the_ball_combine.prt...Building visibility clusters...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1313253 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 546 texinfos to 337
+Reduced 31 texdatas to 29 (787 bytes to 683)
+Writing C:\Users\Clay\game-dev\Source Modding\Maps\the_ball\tha_ball_combine\the_ball_combine.bsp
+5 seconds elapsed
+
+
+
+8 threads
+reading c:\users\clay\game-dev\source modding\maps\the_ball\tha_ball_combine\the_ball_combine.bsp
+reading c:\users\clay\game-dev\source modding\maps\the_ball\tha_ball_combine\the_ball_combine.prt
+1944 portalclusters
+5631 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 7364 visible clusters (0.85%)
+Total clusters visible: 865926
+Average clusters visible: 445
+Building PAS...
+Average clusters audible: 1898
+visdatasize:754903  compressed from 964224
+writing c:\users\clay\game-dev\source modding\maps\the_ball\tha_ball_combine\the_ball_combine.bsp
+6 minutes, 15 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\clay\game-dev\source modding\maps\the_ball\tha_ball_combine\the_ball_combine.bsp
+8061 faces
+2066838 square feet [297624800.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+8061 patches before subdivision
+93701 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 18587314, max 1601
+transfer lists: 141.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(230498, 116814, 56588)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(32009, 17743, 9160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(7298, 4297, 2092)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2209, 1260, 540)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(750, 392, 141)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(298, 130, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(125, 43, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(58, 15, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(28, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(15, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(8, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0505 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 124/1024         5952/49152    (12.1%) 
+brushes               4160/8192        49920/98304    (50.8%) 
+brushsides           30475/65536      243800/524288   (46.5%) 
+planes                4402/65536       88040/1310720  ( 6.7%) 
+vertexes             11915/65536      142980/786432   (18.2%) 
+nodes                 4394/65536      140608/2097152  ( 6.7%) 
+texinfos               337/12288       24264/884736   ( 2.7%) 
+texdata                 29/2048          928/65536    ( 1.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 8061/65536      451416/3670016  (12.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5654/65536      316624/3670016  ( 8.6%) 
+leaves                4519/65536      144608/2097152  ( 6.9%) 
+leaffaces             8444/65536       16888/131072   (12.9%) 
+leafbrushes           8118/65536       16236/131072   (12.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            56804/512000     227216/2048000  (11.1%) 
+edges                32668/256000     130672/1024000  (12.8%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            450/32768        4500/327680   ( 1.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9405/65536       18810/131072   (14.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     2959892/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      754903/16777216 ( 4.5%) 
+entdata               [variable]       93022/393216   (23.7%) 
+LDR ambient table     4519/65536       18076/262144   ( 6.9%) 
+HDR ambient table     4519/65536       18076/262144   ( 6.9%) 
+LDR leaf ambient      9063/65536      253764/1835008  (13.8%) 
+HDR leaf ambient      4519/65536      126532/1835008  ( 6.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/744      ( 0.1%) 
+pakfile               [variable]      174140/0        ( 0.0%) 
+physics               [variable]     1313253/4194304  (31.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 19247
+Writing c:\users\clay\game-dev\source modding\maps\the_ball\tha_ball_combine\the_ball_combine.bsp
+39 seconds elapsed
